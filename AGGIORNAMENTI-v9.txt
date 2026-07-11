@@ -1,0 +1,11 @@
+Coccolia v9 - Correzioni appuntamenti
+
+- Tocca un appuntamento dalla Home o dal Calendario per modificarlo.
+- Aggiunto il pulsante "Elimina appuntamento" con conferma.
+- Quando un appuntamento viene modificato, il vecchio promemoria viene eliminato e ricreato.
+- Quando un appuntamento viene eliminato, viene eliminata anche la relativa notifica.
+- Data, ora e notifiche usano il fuso Europe/Rome e il formato italiano 24 ore.
+- Aggiunte risorse di localizzazione italiana per i messaggi di sistema.
+- Numero build aggiornato a 9.
+
+Nota: gli appuntamenti già salvati con un orario errato vanno aperti e risalvati una volta con l'orario corretto.

@@ -1,0 +1,8 @@
+Coccolia build 16
+
+Correzione compilazione:
+- aggiunta la schermata AddExpenseView richiamata dalla Home;
+- mantenute modifica ed eliminazione delle spese;
+- mantenute modifica, eliminazione e navigazione indietro dei documenti;
+- pacchetto completo con tutti i file del progetto;
+- numero build aggiornato a 16.

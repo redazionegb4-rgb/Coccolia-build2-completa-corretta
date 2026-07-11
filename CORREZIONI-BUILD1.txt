@@ -1,0 +1,9 @@
+COCCOLIA — BUILD 1 COMPLETA
+
+- Nuovo nome applicazione: Coccolia
+- Nuovo Bundle Identifier: com.demetrio.coccolia
+- Progetto e target rinominati
+- Corretti tutti i valori decimali Swift che bloccavano la compilazione
+- Testi, onboarding, navigazione e nome visualizzato aggiornati
+- Numero build azzerato a 1 per la nuova app
+- Rimossa la vecchia entry duplicata PetCareApp.swift

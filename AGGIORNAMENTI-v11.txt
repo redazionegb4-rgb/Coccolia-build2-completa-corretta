@@ -1,0 +1,8 @@
+Coccolia build 11
+
+- Spese modificabili al tocco.
+- Spese eliminabili con swipe, menu contestuale o dalla schermata di modifica.
+- Documenti modificabili (titolo, categoria e bambino).
+- Documenti eliminabili con conferma.
+- Anteprima documenti con pulsante Indietro sempre visibile.
+- Menu anteprima con Modifica, Condividi ed Elimina.

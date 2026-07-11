@@ -1,0 +1,10 @@
+Coccolia build 2
+
+Correzioni:
+- ripristinati AppDateTime e ItalianDate
+- ripristinati CardModifier e petCard
+- ripristinati i colori AppTheme mancanti
+- ripristinate le proprietà tintColor e softColor delle categorie
+- corretti gli errori di compilazione mostrati in CalendarView ed ExpensesView
+
+Aprire Coccolia.xcodeproj, selezionare il Team e usare Product > Clean Build Folder prima di compilare.

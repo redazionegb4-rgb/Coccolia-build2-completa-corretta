@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59A475AC3002D6E000D4EF05 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A475AB3002D6E000D4EF05 /* NotificationManager.swift */; };
+		59A475AD3002D8C600D4EF05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F018 /* Assets.xcassets */; };
+		B001 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F020 /* it.lproj */; };
+		A001 /* CoccoliaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001 /* CoccoliaApp.swift */; };
+		A002 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002 /* Pet.swift */; };
+		A003 /* PetEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003 /* PetEvent.swift */; };
+		A004 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004 /* Expense.swift */; };
+		A005 /* PetDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005 /* PetDocument.swift */; };
+		A006 /* PetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006 /* PetStore.swift */; };
+		A007 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007 /* NotificationService.swift */; };
+		A008 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008 /* AppTheme.swift */; };
+		A009 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F009 /* RootTabView.swift */; };
+		A010 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010 /* HomeView.swift */; };
+		A011 /* PetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F011 /* PetsView.swift */; };
+		A012 /* AddPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012 /* AddPetView.swift */; };
+		A013 /* PetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013 /* PetDetailView.swift */; };
+		A014 /* AddEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F014 /* AddEventView.swift */; };
+		A015 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F015 /* CalendarView.swift */; };
+		A016 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F016 /* ExpensesView.swift */; };
+		A017 /* DocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F017 /* DocumentsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59A475A93002D6BE00D4EF05 /* Coccolia */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Coccolia; sourceTree = "<group>"; };
+		59A475AB3002D6E000D4EF05 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationManager.swift; path = Coccolia/Services/NotificationManager.swift; sourceTree = "<group>"; };
+		F000 /* Coccolia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Coccolia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F001 /* CoccoliaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoccoliaApp.swift; sourceTree = "<group>"; };
+		F002 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		F003 /* PetEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetEvent.swift; sourceTree = "<group>"; };
+		F004 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		F005 /* PetDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDocument.swift; sourceTree = "<group>"; };
+		F006 /* PetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStore.swift; sourceTree = "<group>"; };
+		F007 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		F008 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		F009 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		F010 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F011 /* PetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsView.swift; sourceTree = "<group>"; };
+		F012 /* AddPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetView.swift; sourceTree = "<group>"; };
+		F013 /* PetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailView.swift; sourceTree = "<group>"; };
+		F014 /* AddEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventView.swift; sourceTree = "<group>"; };
+		F015 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		F016 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		F017 /* DocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsView.swift; sourceTree = "<group>"; };
+		F018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F020 /* it.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = it.lproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		P001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G000 = {
+			isa = PBXGroup;
+			children = (
+				59A475AB3002D6E000D4EF05 /* NotificationManager.swift */,
+				G001 /* Coccolia */,
+				59A475A93002D6BE00D4EF05 /* Coccolia */,
+				G900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G001 /* Coccolia */ = {
+			isa = PBXGroup;
+			children = (
+				F001 /* CoccoliaApp.swift */,
+				G100 /* Models */,
+				G200 /* Services */,
+				G300 /* Resources */,
+				G400 /* Views */,
+				F018 /* Assets.xcassets */,
+				F019 /* Info.plist */,
+				F020 /* it.lproj */,
+			);
+			path = Coccolia;
+			sourceTree = "<group>";
+		};
+		G100 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F002 /* Pet.swift */,
+				F003 /* PetEvent.swift */,
+				F004 /* Expense.swift */,
+				F005 /* PetDocument.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G200 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F006 /* PetStore.swift */,
+				F007 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		G300 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F008 /* AppTheme.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		G400 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F009 /* RootTabView.swift */,
+				F010 /* HomeView.swift */,
+				F011 /* PetsView.swift */,
+				F012 /* AddPetView.swift */,
+				F013 /* PetDetailView.swift */,
+				F014 /* AddEventView.swift */,
+				F015 /* CalendarView.swift */,
+				F016 /* ExpensesView.swift */,
+				F017 /* DocumentsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		G900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F000 /* Coccolia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T001 /* Coccolia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C100 /* Build configuration list for PBXNativeTarget "Coccolia" */;
+			buildPhases = (
+				P010 /* Sources */,
+				P001 /* Frameworks */,
+				P020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coccolia;
+			productName = Coccolia;
+			productReference = F000 /* Coccolia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PRJ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					T001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = C000 /* Build configuration list for PBXProject "Coccolia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = it;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				it,
+				en,
+				Base,
+			);
+			mainGroup = G000;
+			productRefGroup = G900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T001 /* Coccolia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		P020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A475AD3002D8C600D4EF05 /* Assets.xcassets in Resources */,
+				B001 /* it.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		P010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001 /* CoccoliaApp.swift in Sources */,
+				A002 /* Pet.swift in Sources */,
+				A003 /* PetEvent.swift in Sources */,
+				A004 /* Expense.swift in Sources */,
+				A005 /* PetDocument.swift in Sources */,
+				A006 /* PetStore.swift in Sources */,
+				A007 /* NotificationService.swift in Sources */,
+				A008 /* AppTheme.swift in Sources */,
+				A009 /* RootTabView.swift in Sources */,
+				A010 /* HomeView.swift in Sources */,
+				A011 /* PetsView.swift in Sources */,
+				A012 /* AddPetView.swift in Sources */,
+				59A475AC3002D6E000D4EF05 /* NotificationManager.swift in Sources */,
+				A013 /* PetDetailView.swift in Sources */,
+				A014 /* AddEventView.swift in Sources */,
+				A015 /* CalendarView.swift in Sources */,
+				A016 /* ExpensesView.swift in Sources */,
+				A017 /* DocumentsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8SC92LPR5;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Coccolia/Info.plist;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demetrio.coccolia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		R001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		R100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8SC92LPR5;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Coccolia/Info.plist;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demetrio.coccolia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C000 /* Build configuration list for PBXProject "Coccolia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D001 /* Debug */,
+				R001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C100 /* Build configuration list for PBXNativeTarget "Coccolia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D100 /* Debug */,
+				R100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PRJ /* Project object */;
+}

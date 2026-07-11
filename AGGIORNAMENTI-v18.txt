@@ -1,0 +1,9 @@
+Coccolia build 18
+
+- Schermata iniziale ridisegnata con grafica più moderna e pulita.
+- Rimossi i campi Cognome ed Email.
+- Rimossa la casella di consenso dalla schermata iniziale.
+- Rimane soltanto il campo Nome, necessario per personalizzare il saluto nell'app.
+- Inserimento del nome con tastiera focalizzata automaticamente.
+- Pulsante attivo solo quando il nome è compilato.
+- Dati sempre salvati esclusivamente in locale sul dispositivo.

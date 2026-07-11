@@ -1,0 +1,8 @@
+Coccolia build 10
+
+- Le notifiche interne ora sono selezionabili.
+- Toccando una notifica si apre l’appuntamento collegato in modifica.
+- La notifica toccata viene segnata automaticamente come letta.
+- Aggiunto il comando “Segna tutte lette”.
+- Il contatore rosso mostra solo le notifiche non lette e scompare a zero.
+- Lo stato letto/non letto viene salvato sul dispositivo.
