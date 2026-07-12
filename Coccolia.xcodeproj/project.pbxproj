@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		59A475AC3002D6E000D4EF05 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A475AB3002D6E000D4EF05 /* NotificationManager.swift */; };
 		59A475AD3002D8C600D4EF05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F018 /* Assets.xcassets */; };
-		B001 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F020 /* it.lproj */; };
 		A001 /* CoccoliaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001 /* CoccoliaApp.swift */; };
 		A002 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002 /* Pet.swift */; };
 		A003 /* PetEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003 /* PetEvent.swift */; };
@@ -27,6 +26,7 @@
 		A015 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F015 /* CalendarView.swift */; };
 		A016 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F016 /* ExpensesView.swift */; };
 		A017 /* DocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F017 /* DocumentsView.swift */; };
+		B001 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F020 /* it.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -255,7 +255,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = B8SC92LPR5;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Coccolia/Info.plist;
@@ -285,7 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = B8SC92LPR5;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Coccolia/Info.plist;
